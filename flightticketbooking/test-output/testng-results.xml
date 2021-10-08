@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-30T19:06:14 IST" name="Suite" finished-at="2021-09-30T19:06:35 IST" duration-ms="20806">
+    <groups>
+    </groups>
+    <test started-at="2021-09-30T19:06:14 IST" name="flightticketbooking" finished-at="2021-09-30T19:06:35 IST" duration-ms="20806">
+      <class name="tests.BookAFlightTest">
+        <test-method is-config="true" signature="loadprop()[pri:0, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:14 IST" name="loadprop" finished-at="2021-09-30T19:06:14 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadprop -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:14 IST" name="launchBrowser" finished-at="2021-09-30T19:06:22 IST" duration-ms="7649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:22 IST" name="setup" finished-at="2021-09-30T19:06:22 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchForFlights()[pri:0, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:22 IST" name="searchForFlights" finished-at="2021-09-30T19:06:26 IST" duration-ms="4052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlights -->
+        <test-method signature="chooseFlight()[pri:1, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:26 IST" name="chooseFlight" finished-at="2021-09-30T19:06:32 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFlight -->
+        <test-method signature="purchaseTicket()[pri:2, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:32 IST" name="purchaseTicket" finished-at="2021-09-30T19:06:34 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseTicket -->
+        <test-method signature="bookingConfirmed()[pri:3, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:34 IST" name="bookingConfirmed" finished-at="2021-09-30T19:06:34 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingConfirmed -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.BookAFlightTest@5fa07e12]" started-at="2021-09-30T19:06:34 IST" name="afterTest" finished-at="2021-09-30T19:06:35 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.BookAFlightTest -->
+    </test> <!-- flightticketbooking -->
+  </suite> <!-- Suite -->
+</testng-results>

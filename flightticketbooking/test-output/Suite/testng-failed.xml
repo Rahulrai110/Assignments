@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="flightticketbooking(failed)">
+    <classes>
+      <class name="tests.BookAFlightTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loadprop"/>
+          <include name="bookingConfirmed"/>
+          <include name="searchForFlights"/>
+          <include name="afterTest"/>
+          <include name="purchaseTicket"/>
+          <include name="setup"/>
+          <include name="tearDownBrowser"/>
+        </methods>
+      </class> <!-- tests.BookAFlightTest -->
+    </classes>
+  </test> <!-- flightticketbooking(failed) -->
+</suite> <!-- Failed suite [Suite] -->
